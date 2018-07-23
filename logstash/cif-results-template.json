@@ -1,0 +1,125 @@
+{
+    "template": "toughday-request",
+    "settings": {
+        "number_of_shards": "5",
+        "number_of_replicas": "1"
+    },
+    "mappings": {
+        "toughday-request": {
+            "properties": {
+                "@timestamp": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis"
+                },
+                "@version": {
+                    "type": "string"
+                },
+                "Perf-Ow-Seq-End-0": {
+                    "type": "long"
+                },
+                "Perf-Ow-Seq-Start-0": {
+                    "type": "long"
+                },
+                "Perf-Backend-Req-In-0-0": {
+                    "type": "long"
+                },
+                "Perf-Backend-Req-In-0-1": {
+                    "type": "long"
+                },
+                "Perf-Backend-Req-Out-0-0": {
+                    "type": "long"
+                },
+                "Perf-Backend-Req-Out-0-1": {
+                    "type": "long"
+                },
+                "Perf-Backend-Req-Url-0-0": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "Perf-Backend-Req-Url-0-1": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "bytes": {
+                    "type": "long"
+                },
+                "context_path": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "duration": {
+                    "type": "long"
+                },
+                "end_timestamp": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis"
+                },
+                "host": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "load_requests": {
+                    "type": "long"
+                },
+                "method": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "mode": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "perf-activate": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "port": {
+                    "type": "long"
+                },
+                "protocol": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "response_code": {
+                    "type": "long"
+                },
+                "response_time": {
+                    "type": "long"
+                },
+                "start_timestamp": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis"
+                },
+                "status": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "target_host": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "test_name": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "think_time": {
+                    "type": "long"
+                },
+                "thread": {
+                    "type": "long"
+                },
+                "url": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "user_id": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "users": {
+                    "type": "long"
+                }
+            }
+        }
+    }
+}
