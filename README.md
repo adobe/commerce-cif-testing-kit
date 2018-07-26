@@ -17,11 +17,7 @@ Please refer to the [README.md](test-generation/README.md) in the `test-generati
 ## Runtime REST API Deployment
 Since the test cases are generated from the Swagger API definition, that describes a REST API, 
 Adobe I/O Runtime has to be configured to expose a REST API on top of the action deployment.
-To do that, please run the following command:
-
-```bash
-wsk api create -c path/to/swagger.json
-```
+To do that, please follow the [API documentation](https://github.com/adobe/commerce-cif-api#configuring-the-rest-api-on-adobe-io-runtime).
 
 ## Running Unit Tests
 First do a `mvn clean install` in the root folder to install all dependencies. To run the unit tests, execute the following command in the `unit` folder:
