@@ -1,4 +1,4 @@
-# CIF API Test Case Generation
+# CIF REST API Test Case Generation
 
 ## Instructions
 1. Copy your `swagger.json` in `test-generation` folder.

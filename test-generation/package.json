@@ -2,7 +2,7 @@
   "name": "@adobe/commerce-cif-api-test-generation",
   "version": "0.0.1",
   "private": true,
-  "description": "Adobe Commerce Integration Framework (CIF) - API Testing Kit - Test Case Generator",
+  "description": "Adobe Commerce Integration Framework (CIF REST) - API Testing Kit - Test Case Generator",
   "author": "Adobe Systems Inc.",
   "license": "Apache-2.0",
   "dependencies": {

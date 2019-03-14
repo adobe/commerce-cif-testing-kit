@@ -24,7 +24,7 @@
         <module>performance/cloud-perf-example</module>
     </modules>
 
-    <name>Commerce Integration Framework (CIF) Cloud - Testing Kit - Reactor</name>
+    <name>Commerce Integration Framework (CIF REST) Cloud - Testing Kit - Reactor</name>
     <url>https://github.com/adobe/commerce-cif-testing-kit</url>
 
     <scm>
