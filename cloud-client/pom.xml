@@ -19,7 +19,7 @@
     <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Commerce Integration Framework (CIF REST) Cloud - API Testing Kit - Cloud Client</name>
+    <name>Commerce Integration Framework (CIF REST) - API Testing Kit - Cloud Client</name>
     <description>This package contains the HTTP client for testing.</description>
     <url>https://github.com/adobe/commerce-cif-testing-kit</url>
 

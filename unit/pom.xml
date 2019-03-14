@@ -18,7 +18,7 @@
     <version>0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Commerce Integration Framework (CIF REST) Cloud - API Testing Kit - Unit Tests</name>
+    <name>Commerce Integration Framework (CIF REST) - API Testing Kit - Unit Tests</name>
     <description>Example project for generated unit tests.</description>
     <url>https://github.com/adobe/commerce-cif-testing-kit</url>
 
