@@ -26,7 +26,7 @@
     <artifactId>cloud-perf-example</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Commerce Integration Framework (CIF) Cloud - API Testing Kit - Toughday Tests</name>
+    <name>Commerce Integration Framework (CIF REST) - API Testing Kit - Toughday Tests</name>
     <description>Example project for generated Toughday tests.</description>
     <url>https://github.com/adobe/commerce-cif-testing-kit</url>
 

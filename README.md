@@ -1,9 +1,9 @@
 [![CircleCI](https://circleci.com/gh/adobe/commerce-cif-testing-kit.svg?style=svg)](https://circleci.com/gh/adobe/commerce-cif-testing-kit)
 
-# Commerce Integration Framework (CIF) on Cloud - API Testing Kit
-This repository contains tools to generate HTTP-based unit and Toughday2 tests for the CIF API.
+# Commerce Integration Framework (CIF REST) - API Testing Kit
+This repository contains tools to generate HTTP-based unit and Toughday2 tests for the CIF REST API.
 
-The purpose of the test kit is provided some CIF API compliance checks to test CIF implementations from Adobe and integration partners. Customers can use it as well to validate that their customizations don't break API compliance.
+The purpose of the test kit is provided some CIF REST API compliance checks to test CIF REST implementations from Adobe and integration partners. Customers can use it as well to validate that their customizations don't break API compliance.
 
 ## Structure
 * `test-generation` Toolkit to generate test cases based on templates and the Swagger API specification.

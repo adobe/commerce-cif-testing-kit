@@ -23,7 +23,7 @@
     <artifactId>cloud-perf-utils</artifactId>
     <version>0.1.1-SNAPSHOT</version>
 
-    <name>Commerce Integration Framework (CIF) Cloud - API Testing Kit - Toughday Utils</name>
+    <name>Commerce Integration Framework (CIF REST) - API Testing Kit - Toughday Utils</name>
     <description>Utility classes for Toughday tests.</description>
     <url>https://github.com/adobe/commerce-cif-testing-kit</url>
 
